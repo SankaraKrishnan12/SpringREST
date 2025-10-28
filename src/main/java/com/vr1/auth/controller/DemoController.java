@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/restDemo")
 public class DemoController{
-    @GetMapping("/")
+
+    @GetMapping
     public String demo(){
         return "Welcome to Rest api demo";
     }
